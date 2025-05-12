@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+    <style>
+        .inputcheck {
+            border: 1px solid black;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            color: red;
+        }
+        .inputs {
+            border: 1px solid black;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            background-color: aquamarine;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            color: blueviolet;
+        }
+        .inputradio {
+            border: 1px solid black;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            background-color: thistle;
+            border-radius: 10px;
+            color: cornflowerblue;
+        }
+        .inputdate {
+            margin: 5px;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 25px;
+            color: yellow;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Inputs</h1>
+    <div class="inputcheck">
+        <h2>Do que você mais gosta?</h2>
+        <!-- Para selecionar clicando na label preciso referencia no id do input na label -->
+        <input type="checkbox" id="futebol">
+        <label for="futebol">Futebol</label>
+        <input type="checkbox" id="natacao">
+        <label for="natacao">Natação</label>
+        <input type="checkbox" id="ciclismo">
+        <label for="ciclismo">Ciclismo</label>
+    </div>
+    <div class="inputs">
+        <h2>Tela de cadastro</h2>
+        <label for="Nome">Nome</label>
+        <input type="text" name="Nome" id="Nome">
+        <br>
+        <label for="senha">Senha</label>
+        <input type="number" name="senha" id="senha">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <!-- type=submit também é um butão so que usado para enviar -->
+        <input type="button" value="mostrar senha">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+    </div>
+    <div class="inputradio">
+        <h2>Escolha so uma opção</h2>
+        <input type="radio" name="salgado-doce" id="doce">
+        <label for="doce">Doce</label>
+        <input type="radio" name="salgado-doce" id="salgado">
+        <label for="salgado">Salgado</label>
+
+        <input type="radio" name="salgado-doce" id="salgadodoce">
+        <label for="salgadodoce">Salgado & Doce</label>
+        <div class="inputdate">
+            <label for="data">Data de nascimento</label>
+            <input type="date" name="" id="data">
+        </div>
+    </div>
+
+</body>
+</html>
