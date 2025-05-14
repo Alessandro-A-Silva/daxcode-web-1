@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form {
+    background-color: aquamarine;
+    width: 360px;
+}
+
+.email-senha {
+    max-width: 360px;
+}
+
+#senha {
+    margin: 5px;
+}
+
+.conectar-esqueceu {
+    display: flex;
+    justify-content: space-between;
+}
