@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #ffe600;
+    padding-left: 10px;
+}
+input {
+    min-width: 344px;
+}
+
+#top{
+    width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#anuncio {
+    width: 340px;
+    height: 39px;
+
+}
+#bot {
+    width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button {
+    border: 0px;
+    display: flex;
+    background-color: #ffe600;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+span {
+    font-weight: 600;
+}
+
+
+nav {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    display: inline-block;
+}

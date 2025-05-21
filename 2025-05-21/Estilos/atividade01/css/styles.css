@@ -1,0 +1,29 @@
+div {
+    border-radius: 5px;
+}
+form {
+    border-radius: 5px;
+}
+nav {
+    background-color: tomato;
+    align-items: center;
+    height: 30px;
+    display: flex;
+    border-radius: 5px;
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+li {
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
