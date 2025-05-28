@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #00050d;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.primeira-parte {
+    display: flex;
+    align-items: center;
+}
+
+.primeira-parte img {
+    width: 96px;
+    cursor: pointer;
+    margin: 0 35px;
+}
+
+.primeira-parte nav {
+    display: flex;
+    /* espaçamento (gap)*/
+    gap: 24px;
+    align-items: center;
+}
+
+.primeira-parte nav a {
+    font-weight: 550;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.primeira-parte nav a:hover{
+    background-color: #fff;
+    border-radius: 10px;
+    color: #00050d;
+
+    /* altera o icone junto ao link */
+    /* .rodar {
+        color: #00050d;
+    } */
+}
+
+/* altera a cor do icone junto ao link */
+a:hover .rodar {
+    color: #00050d;
+}
+
+
+
+.primeira-parte nav a .rodar {
+    /* para rodar o icone ele precisar ser um bloco */
+    display: inline-block;
+    transform: rotate(90deg);
+    /* para aumentar tamanho do icone usa font-size */
+    font-size: 20px;
+}
+
+#link {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+#segunda-parte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-right: 32px;
+}
+
+#segunda-parte i {
+    font-size: 20px;
+}
+
+#segunda-parte .estiloUnico {
+    padding: 10px;
+}
+
+#segunda-parte .estiloUnico:hover{
+    background-color: #fff;
+    border-radius: 50%;
+
+    /* altera o icone junto ao link */
+    /* .rodar {
+        color: #00050d;
+    } */
+}
+
+.estiloUnico:hover i {
+    color: #00050d;
+}
+/* #segunda-parte a {
+    padding: 10px;
+} */
+
+#segunda-parte button {
+    background: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#segunda-parte button:hover {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #00050d;
+}
+
+#segunda-parte button:hover i {
+    color: #00050d;
+}
+
+.imgs {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.imgs:hover {
+    border: 10px solid #fff;
+    border-radius: 50%;
+
+}
+
+#segunda-parte img {
+    width: 30px;
+}
+
+
+
+#assinar {
+    border-radius: 10px;
+    background-color: #1A98FFCC;
+    padding: 11px 14px;
+    font-weight: 550;
+    transition: 0.2;
+}
+
+#assinar:hover {
+    background-color: rgba(26, 152, 255);
+    box-shadow: rgba(26, 152, 255, 0.2) 0px -4px 16px 0px
+}
+
+
+
+
+
+
+
+
+
